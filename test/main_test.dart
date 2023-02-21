@@ -9,7 +9,7 @@ void main() {
   // input nidn wali
   // input nama dosen wali
 
-  print("Nidn Dosen Wali : ");
+  print("Nidn Dosen Walii : ");
   String? nidn = stdin.readLineSync();
   print("Nama Dosen Wali : ");
   String? nama = stdin.readLineSync();
@@ -18,8 +18,8 @@ void main() {
   print("Masukkan Jumlah mahasiswa :");
   int? jumlah = int.parse(stdin.readLineSync()!);
 
-    for (var i = 0; i < jumlah; i++) {
-    print("Masukan Nim Ke ${i+1}: ");
+  for (var i = 0; i < jumlah; i++) {
+    print("Masukan Nim Ke ${i + 1}: ");
     String? nim = stdin.readLineSync();
     print("Masukkan nama Mahasiswa ke - ${i + 1}");
     String nama = stdin.readLineSync() as String;
