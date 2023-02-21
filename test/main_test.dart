@@ -6,8 +6,9 @@ import 'wali_test.dart';
 /* OOP GETTER DAN SETTER */
 
 void main() {
-  // input nidn wali
-  // input nama dosen wali
+  // Tugas
+  // input nidn dosen
+  // input nama dosen 
 
   print("Nidn Dosen Wali : ");
   String? nidn = stdin.readLineSync();
