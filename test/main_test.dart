@@ -9,7 +9,7 @@ void main() {
   // input nidn wali
   // input nama dosen wali
 
-  print("Nidn Dosen Walii : ");
+  print("Nidn Dosen Wali : ");
   String? nidn = stdin.readLineSync();
   print("Nama Dosen Wali : ");
   String? nama = stdin.readLineSync();
