@@ -8,11 +8,11 @@ import 'wali_test.dart';
 void main() {
   // Tugas
   // input nidn dosen
-  // input nama dosen 
+  // input nama dosen
 
-  print("Nidn Dosen Wali : ");
+  print("Masukan Nidn Dosen : ");
   String? nidn = stdin.readLineSync();
-  print("Nama Dosen Wali : ");
+  print("Nama Dosen : ");
   String? nama = stdin.readLineSync();
   print("Nama Matakuliah : ");
   String? matakuliah = stdin.readLineSync();
